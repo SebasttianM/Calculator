@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cuadradoCalculadora">
+        <div>
+            <h3>calc</h3>
+            <div class="theme">
+            <p id="tema1">1</p>
+            <p id="tema2">2</p>
+            <p id="tema3">3</p></div>
+        </div>
+        <div>
+            <div>
+                <input type="text" disabled id="resultado" value="" readonly>
+            </div>
+            <form id="calculator" class="borde">
+        
+                <!-- <input type="textfield" name="ans" value="" autocomplete="off" readonly></input> -->
+                
+                <input class="btn" type="button" value="7" id="7">
+                <input class="btn" type="button" value="8">
+                <input class="btn" type="button" value="9">
+                <input class="btn" type="button" value="DEL">
+                
+                <input class="btn" type="button" value="4">
+                <input class="btn" type="button" value="5">
+                <input class="btn" type="button" value="6">
+                <input class="btn" type="button" value="+" id="+">
+
+                <input class="btn" type="button" value="1">
+                <input class="btn" type="button" value="2">
+                <input class="btn" type="button" value="3">
+                <input class="btn" type="button" value="-">
+               
+                <input class="btn" type="button" value=".">
+                <input class="btn" type="button" value="0">
+                <input class="btn" type="button" value="/">
+                <input class="btn" type="button" value="X">
+
+                <input class="btn reset" type="reset" value="RESET" id="reset">
+                <input class="btn igual" type="button" value="=" id="=">
+
+
+              </form> 
+            </div>
+        </div>
+    </div>
+
+    <script src="script/math.js"></script>
+
+  </body>
+</html>

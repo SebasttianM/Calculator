@@ -1,0 +1,52 @@
+
+body{
+
+    background-color: hsl(222, 26%, 31%);
+    max-width: 1440px;
+}
+
+.cuadradoCalculadora{
+    width: 400px;
+    height: 300px;
+    background-color:  hsl(223, 31%, 20%);
+    margin: auto ;
+}
+body.active2 .cuadradoCalculadora{
+    background-color: red;
+}
+.borde{
+    border: 1px red solid;
+}
+#appform{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    width: 95px;
+    height: 80px;
+    background-color: hsl(30, 25%, 89%) ;
+}
+body.active1 .btn{
+    background-color:  hsl(30, 25%, 89%);
+}
+body.active2 .btn{
+    background-color: hsl(0, 0%, 90%);
+}
+body.active3 .btn{
+    background-color: hsl(268, 75%, 9%);
+}
+.reset{
+    width: 180px;
+}
+.igual{
+    width: 180px;
+}
+#resultado{
+    width: 400px;
+    height: 20px;
+}
+
+.theme{
+    display: flex;
+    float:inline-end;
+}
