@@ -1,8 +1,10 @@
-
+@import url(https://fonts.googleapis.com/css?family=Spartan:100,200,300,regular,500,600,700,800,900);
 body{
 
     background-color: hsl(222, 26%, 31%);
     max-width: 1440px;
+    font-family:Spartan;
+    font-weight: 700;
 }
 body.active1 {
     background-color: hsl(222, 26%, 31%);
@@ -25,6 +27,7 @@ body.active3 {
 
 #calculator{
     background-color: hsl(223, 31%, 20%);
+    border-radius: 20px;
 }
 
 body.active1 #calculator{
@@ -36,9 +39,9 @@ body.active2 #calculator{
 body.active3 #calculator{
     background-color: hsl(268, 71%, 12%);
 }
-.borde{
+/* .borde{
     border: 1px red solid;
-}
+} */
 #appform{
     display: flex;
     flex-wrap: wrap;
@@ -52,7 +55,9 @@ body.active3 #calculator{
     justify-content: center;
     background-color: hsl(224, 36%, 15%);
     color: white;
-    font-size: xx-large;
+    font-weight: 700;
+    font-family: Spartan;
+    font-size: 32px;
 }
 .btn{
     width: 74px;
