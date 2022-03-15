@@ -48,5 +48,10 @@ body.active3 .btn{
 
 .theme{
     display: flex;
-    float:inline-end;
+    float:right;
+}
+#headt{
+    height: 14px;
+    width: 200px;
+    background-color:  hsl(223, 31%, 20%);
 }
