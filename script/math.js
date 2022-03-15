@@ -12,7 +12,7 @@ const resultado= document.getElementById('resultado')
 const sum = document.getElementById('+')
 const sub = document.getElementById('-')
 const dot= document.getElementById('.')
-const mult= document.getElementById('X')
+const mult= document.getElementById('x')
 const div= document.getElementById('/')
 const reset= document.getElementById('reset')
 const calc = document.getElementById('calculator')
@@ -52,8 +52,14 @@ recibirValor(n7)
 recibirValor(n8)
 recibirValor(n9)
 recibirValor(n0)
+recibirValor(dot)
+
 
 recibirValor(sum)
+recibirValor(div)
+recibirValor(mult)
+recibirValor(sub)
+
 
 
 

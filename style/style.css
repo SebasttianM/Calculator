@@ -4,15 +4,37 @@ body{
     background-color: hsl(222, 26%, 31%);
     max-width: 1440px;
 }
+body.active1 {
+    background-color: hsl(222, 26%, 31%);
+
+}
+body.active2 {
+    background-color: hsl(0, 0%, 90%);
+
+}
+body.active3 {
+    background-color: hsl(268, 75%, 9%);
+
+}
 
 .cuadradoCalculadora{
     width: 400px;
     height: 300px;
-    background-color:  hsl(223, 31%, 20%);
     margin: auto ;
 }
-body.active2 .cuadradoCalculadora{
-    background-color: red;
+
+#calculator{
+    background-color: hsl(223, 31%, 20%);
+}
+
+body.active1 #calculator{
+    background-color: hsl(223, 31%, 20%);
+}
+body.active2 #calculator{
+    background-color: hsl(0, 5%, 81%);
+}
+body.active3 #calculator{
+    background-color: hsl(268, 71%, 12%);
 }
 .borde{
     border: 1px red solid;
@@ -21,29 +43,32 @@ body.active2 .cuadradoCalculadora{
     display: flex;
     flex-wrap: wrap;
 }
+#resultado{
+    margin: 5% 0%;
+    width: 391px;
+    height: 50px;
+    border-radius: 15px;
+    display: block;
+    justify-content: center;
+    background-color: hsl(224, 36%, 15%);
+    color: white;
+    font-size: xx-large;
+}
 .btn{
-    width: 95px;
-    height: 80px;
+    width: 74px;
+    height: 45px;
     background-color: hsl(30, 25%, 89%) ;
-}
-body.active1 .btn{
-    background-color:  hsl(30, 25%, 89%);
-}
-body.active2 .btn{
-    background-color: hsl(0, 0%, 90%);
-}
-body.active3 .btn{
-    background-color: hsl(268, 75%, 9%);
+    border-radius: 20%;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: hsl(28, 16%, 65%) ;
+    color: hsl(225, 21%, 49%);
 }
 .reset{
-    width: 180px;
+    width: 170px;
 }
 .igual{
-    width: 180px;
-}
-#resultado{
-    width: 400px;
-    height: 20px;
+    width: 170px;
 }
 
 .theme{
@@ -53,5 +78,31 @@ body.active3 .btn{
 #headt{
     height: 14px;
     width: 200px;
-    background-color:  hsl(223, 31%, 20%);
+    color: white;
+    
+}
+body.active1 #headt{
+    color: white;
+}
+body.active2 #headt{
+    color: hsl(60, 10%, 19%);
+}
+body.active3 #headt{
+    color: hsl(52, 100%, 62%);
+}
+body.active1 .btn{
+    background-color:  hsl(30, 25%, 89%);
+    box-shadow: hsl(28, 16%, 65%)
+    
+}
+body.active2 .btn{
+    background-color: hsl(45, 7%, 89%);
+    box-shadow: hsl(35, 11%, 61%);
+    color: hsl(60, 10%, 19%);
+    
+}
+body.active3 .btn{
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: hsl(290, 70%, 36%);
+    color: hsl(52, 100%, 62%);
 }
